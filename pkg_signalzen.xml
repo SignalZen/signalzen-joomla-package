@@ -7,13 +7,13 @@
  * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 **/
  -->
-<extension type="package" version="3.1">
-	<name>SignalZen Live Chat</name>
+<extension type="package" version="3.1" method="upgrade">
+	<name>SignalZen</name>
 	<packagename>signalzen</packagename>
 	<author>MB SignalZen</author>
 	<authorEmail>info@signalzen.com</authorEmail>
 	<authorUrl>https://signalzen.com</authorUrl>
-	<creationDate></creationDate>
+	<creationDate>2021-09-22</creationDate>
 	<version>1.0.0</version>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<url>https://signalzen.com</url>
@@ -23,4 +23,8 @@
 		<file type="component" id="com_signalzen">com_signalzen.zip</file>
 		<file type="plugin" id="plg_signalzen" group="content">plg_signalzen.zip</file>
 	</files>
+
+	<updateservers>
+		<server type="extension" name="SignalZen Joomla Update Site">https://raw.github.com/SignalZen/signalzen-joomla-package/main/manifest.xml</server>
+	</updateservers>
 </extension>
