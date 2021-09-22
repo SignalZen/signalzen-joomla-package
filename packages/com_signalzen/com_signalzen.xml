@@ -26,5 +26,8 @@
 		<languages folder="admin">
 			<language tag="en-GB">language/en-GB/com_signalzen.ini</language>
 		</languages>
+		<updateservers>
+			<server type="extension" name="SignalZen Joomla Update Site">https://raw.github.com/SignalZen/signalzen-joomla-package/main/manifest.xml</server>
+		</updateservers>
 	</administration>
 </extension>
