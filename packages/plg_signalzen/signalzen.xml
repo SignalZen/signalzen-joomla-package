@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>System - SignalZen</name>
+	<author>SignalZen</author>
+	<authorEmail>info@signalzen.com</authorEmail>
+	<authorUrl>https://signalzen.com</authorUrl>
+	<creationDate></creationDate>
+	<version>1.3.0</version>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<url>https://signalzen.com</url>
+	<description>SignalZen is a Live Chat Software service provider for integration with Slack.</description>
+
+	<!-- Scripts to run on installation -->
+	<scriptfile>script.php</scriptfile>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="signalzen">signalzen.php</filename>
+	</files>
+
+</extension>

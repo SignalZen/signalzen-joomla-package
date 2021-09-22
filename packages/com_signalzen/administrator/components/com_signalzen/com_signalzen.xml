@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="component" version="3.5" method="upgrade">
+	<name>SignalZen</name>
+	<author>SignalZen</author>
+	<authorEmail>info@signalzen.com</authorEmail>
+	<authorUrl>https://signalzen.com</authorUrl>
+	<creationDate></creationDate>
+	<version>1.3.0</version>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<url>https://signalzen.com</url>
+	<description>SignalZen is a Live Chat Software service provider for integration with Slack.</description>
+
+	<!-- Back-end files -->
+	<administration>
+		<!-- Menu entries -->
+		<menu link='index.php?option=com_signalzen'>SignalZen</menu>
+
+		<!-- Core files -->
+		<files folder="administrator/components/com_signalzen">
+			<filename>signalzen.php</filename>
+			<filename>controller.php</filename>
+			<filename>LICENSE.txt</filename>
+			<filename>config.xml</filename>
+			<folder>views</folder>
+		</files>
+	</administration>
+</extension>
