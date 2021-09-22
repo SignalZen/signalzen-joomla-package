@@ -157,13 +157,6 @@ class plgSystemSignalzen extends JPlugin
   };
   var _sz=_sz||{};_sz.appId="'.$token.'",function(){var e=document.createElement("script");e.src="https://cdn.signalzen.com/signalzen.js",e.setAttribute("async","true"),document.documentElement.firstChild.appendChild(e);var t=setInterval(function(){"undefined"!=typeof SignalZen&&(clearInterval(t),new SignalZen(_sz).load())},10)}();';
     $doc->addScriptDeclaration($script, $type = 'text/javascript');
-    // $doc->addCustomTag('<script type="text/javascript">'.$script.'</script>');
-
-    if (!$user->guest) {
-      $script = '$signalzen.push(["set", "user:email", "' . $user->email . '"]);';
-      $script = '$signalzen.push(["set", "user:nickname", "' . $user->name . '"]);';
-      $doc->addScriptDeclaration($script, $type = 'text/javascript');
-    }
   }
 
   /**

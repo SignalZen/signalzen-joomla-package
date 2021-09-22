@@ -19,12 +19,12 @@ defined('_JEXEC') or die('Restricted Access');
     <br />
     To enable SignalZen chat widget on your website, you just need to enter your <strong>Public Token</strong> which you can get in the <strong>Integration page</strong> while logged in to your account at <a href="https://signalzen.com" target="_blank">signalzen.com</a>.
     <br />
-    For entering that information together with other available configuration options, please click the button below, which will lead you to component configuration page.
+    In order to integrate with SignalZen and configure your setup, please click the button below, which will lead you to component configuration page.
     <br/>
     Once you enter your Public Token in the component configuration and save the configuration, your website will contain SignalZen live chat widget and you can start talking to them by using our Console or <a href="https://slack.com" target="_blank">Slack</a> if you choose to integrate with it also.
     <br />
     <br />
-    <button onclick="window.location='index.php?option=com_config&view=component&component=com_signalzen'">Configure SignalZen</button>
+    <button onclick="window.location='index.php?option=com_config&view=component&component=com_signalzen'">Integrate and Configure SignalZen</button>
     <br />
     <br />
     Happy chatting!
