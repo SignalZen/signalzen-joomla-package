@@ -10,7 +10,7 @@
 			https://github.com/SignalZen/signalzen-joomla-package
 		</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/SignalZen/signalzen-joomla-package/releases/download/1.0.0/pkg_signalzen_1.0.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/SignalZen/signalzen-joomla-package/releases/download/1.0.0/pkg_signalzen-1.0.0.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="4" />
 		<client>site</client>
