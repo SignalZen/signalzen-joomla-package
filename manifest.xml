@@ -6,11 +6,26 @@
 		<element>pkg_signalzen</element>
 		<type>package</type>
 		<version>1.0.0</version>
-		<infourl title="Joomla Exetension Skeleton">
+		<infourl title="Joomla Extension URL">
 			https://github.com/SignalZen/signalzen-joomla-package
 		</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/SignalZen/signalzen-joomla-package/releases/download/1.0.0/pkg_signalzen-1.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="4" />
+		<client>site</client>
+	</update>
+	<update>
+		<name>SignalZen Package</name>
+		<description>SignalZen is a Live Chat Software service provider for integration with Slack.</description>
+		<element>pkg_signalzen</element>
+		<type>package</type>
+		<version>1.1.0</version>
+		<infourl title="Joomla Extension URL">
+			https://github.com/SignalZen/signalzen-joomla-package
+		</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/SignalZen/signalzen-joomla-package/releases/download/1.1.0/pkg_signalzen-1.1.0.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="4" />
 		<client>site</client>
