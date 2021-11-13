@@ -4,10 +4,10 @@
 	<author>SignalZen</author>
 	<authorEmail>info@signalzen.com</authorEmail>
 	<authorUrl>https://signalzen.com</authorUrl>
-	<creationDate></creationDate>
-	<version>1.0.0</version>
+	<creationDate>2021-11-13</creationDate>
+	<version>1.1.1</version>
 	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-	<url>https://signalzen.com</url>
+	<copyright>MB SignalZen</copyright>
 	<description>SignalZen is a Live Chat Software service provider for integration with Slack.</description>
 
 	<!-- Back-end files -->
