@@ -1,259 +1,314 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
-	<fieldset
-		name="General"
-		label="General"
-		description="General configuration of SignalZen module"
-		>
-		<field
-			name="signalzen_token"
-			type="text"
-			size="8"
-			label="Public Token"
-			extension="com_signalzen"
-			view="signalzen_token"
-		/>
-	</fieldset>
-	<fieldset
-		name="Widget Positioning"
-		label="Widget Positioning"
-		description="Positioning of the Live Chat widget configuration"
-		>
-		<field
-			name="horizontal_position"
-			type="list"
-			label="Horizontal Position"
-			extension="com_signalzen"
-			view="horizontal_position"
-		>
-			<option value="">Default</option>
-			<option value="left">Left</option>
-			<option value="right">Right</option>
-		</field>
-		<field
-			name="vertical_position"
-			type="list"
-			label="Vertical Position"
-			extension="com_signalzen"
-			view="vertical_position"
-		>
-			<option value="">Default</option>
-			<option value="top">Top</option>
-			<option value="bottom">Bottom</option>
-		</field>
-		<field
-			name="horizontal_offset"
-			type="number"
-			size="8"
-			label="Horizontal Offset (in pixels, can be negative)"
-			extension="com_signalzen"
-			view="horizontal_offset"
-		/>
-		<field
-			name="vertical_offset"
-			type="number"
-			size="8"
-			label="Vertical Offset (in pixels, can be negative)"
-			extension="com_signalzen"
-			view="vertical_offset"
-		/>
-	</fieldset>
-	<fieldset
-		name="Widget Colors"
-		label="Widget Colors"
-		description="Color palette of the Live Chat widget configuration"
-		>
-		<field
-			name="color_primary"
-			type="color"
-			size="8"
-			label="Primary color"
-			extension="com_signalzen"
-			view="color_primary"
-		/>
-		<field
-			name="color_secondary"
-			type="color"
-			size="8"
-			label="Secondary color"
-			extension="com_signalzen"
-			view="color_secondary"
-		/>
-		<field
-			name="color_footer"
-			type="color"
-			size="8"
-			label="Footer color"
-			extension="com_signalzen"
-			view="color_footer"
-		/>
-		<field
-			name="color_error"
-			type="color"
-			size="8"
-			label="Error color"
-			extension="com_signalzen"
-			view="color_error"
-		/>
-		<field
-			name="color_popup"
-			type="color"
-			size="8"
-			label="Popup color"
-			extension="com_signalzen"
-			view="color_popup"
-		/>
-		<field
-			name="color_popupClose"
-			type="color"
-			size="8"
-			label="Popup close color"
-			extension="com_signalzen"
-			view="color_popupClose"
-		/>
-		<field
-			name="color_popupCloseSymbol"
-			type="color"
-			size="8"
-			label="Popup close symbol color"
-			extension="com_signalzen"
-			view="color_popupCloseSymbol"
-		/>
-		<field
-			name="color_popupFormInputBorder"
-			type="color"
-			size="8"
-			label="Popup form input color"
-			extension="com_signalzen"
-			view="color_popupFormInputBorder"
-		/>
-		<field
-			name="color_badge"
-			type="color"
-			size="8"
-			label="Badge color"
-			extension="com_signalzen"
-			view="color_badge"
-		/>
-		<field
-			name="color_footerEmojisPopup"
-			type="color"
-			size="8"
-			label="Footer emojis background color"
-			extension="com_signalzen"
-			view="color_footerEmojisPopup"
-		/>
-		<field
-			name="color_footerOptions"
-			type="color"
-			size="8"
-			label="Footer options color"
-			extension="com_signalzen"
-			view="color_footerOptions"
-		/>
-		<field
-			name="color_operatorMessages"
-			type="color"
-			size="8"
-			label="Operator messages background color"
-			extension="com_signalzen"
-			view="color_operatorMessages"
-		/>
-		<field
-			name="color_formInput"
-			type="color"
-			size="8"
-			label="Form input color"
-			extension="com_signalzen"
-			view="color_formInput"
-		/>
-		<field
-			name="color_formInputBorder"
-			type="color"
-			size="8"
-			label="Form input border color"
-			extension="com_signalzen"
-			view="color_formInputBorder"
-		/>
-		<field
-			name="color_formButton"
-			type="color"
-			size="8"
-			label="Form button background color"
-			extension="com_signalzen"
-			view="color_formButton"
-		/>
-		<field
-			name="color_formPlaceholder"
-			type="color"
-			size="8"
-			label="Form input placeholder color"
-			extension="com_signalzen"
-			view="color_formPlaceholder"
-		/>
-		<field
-			name="color_textPrimary"
-			type="color"
-			size="8"
-			label="Text primary color"
-			extension="com_signalzen"
-			view="color_textPrimary"
-		/>
-		<field
-			name="color_textError"
-			type="color"
-			size="8"
-			label="Error text color"
-			extension="com_signalzen"
-			view="color_textError"
-		/>
-		<field
-			name="color_textTime"
-			type="color"
-			size="8"
-			label="Time text color"
-			extension="com_signalzen"
-			view="color_textTime"
-		/>
-		<field
-			name="color_textTimeSeparator"
-			type="color"
-			size="8"
-			label="Time separator text color"
-			extension="com_signalzen"
-			view="color_textTimeSeparator"
-		/>
-		<field
-			name="color_textUserMessage"
-			type="color"
-			size="8"
-			label="User message text color"
-			extension="com_signalzen"
-			view="color_textUserMessage"
-		/>
-		<field
-			name="color_textFormInput"
-			type="color"
-			size="8"
-			label="Form text input color"
-			extension="com_signalzen"
-			view="color_textFormInput"
-		/>
-		<field
-			name="color_textFormTitle"
-			type="color"
-			size="8"
-			label="Form text title color"
-			extension="com_signalzen"
-			view="color_textFormTitle"
-		/>
-		<field
-			name="color_textFormButton"
-			type="color"
-			size="8"
-			label="Form button text color"
-			extension="com_signalzen"
-			view="color_textFormButton"
-		/>
-	</fieldset>
+	<form enctype="multipart/form-data">
+		<fieldset
+			name="General"
+			label="General"
+			description="General configuration of SignalZen module"
+			>
+			<field
+				name="signalzen_token"
+				type="text"
+				size="8"
+				label="Public Token"
+				extension="com_signalzen"
+				view="signalzen_token"
+			/>
+		</fieldset>
+		<fieldset
+			name="Widget Positioning"
+			label="Widget Positioning"
+			description="Positioning of the Live Chat widget configuration"
+			>
+			<field
+				name="horizontal_position"
+				type="list"
+				label="Horizontal Position"
+				extension="com_signalzen"
+				view="horizontal_position"
+			>
+				<option value="">Default</option>
+				<option value="left">Left</option>
+				<option value="right">Right</option>
+			</field>
+			<field
+				name="vertical_position"
+				type="list"
+				label="Vertical Position"
+				extension="com_signalzen"
+				view="vertical_position"
+			>
+				<option value="">Default</option>
+				<option value="top">Top</option>
+				<option value="bottom">Bottom</option>
+			</field>
+			<field
+				name="horizontal_offset"
+				type="number"
+				size="8"
+				label="Horizontal Offset (in pixels, can be negative)"
+				extension="com_signalzen"
+				view="horizontal_offset"
+			/>
+			<field
+				name="vertical_offset"
+				type="number"
+				size="8"
+				label="Vertical Offset (in pixels, can be negative)"
+				extension="com_signalzen"
+				view="vertical_offset"
+			/>
+		</fieldset>
+		<fieldset
+			name="Widget Colors"
+			label="Widget Colors"
+			description="Color palette of the Live Chat widget configuration"
+			>
+			<field
+				name="color_primary"
+				type="color"
+				size="8"
+				label="Primary color"
+				extension="com_signalzen"
+				view="color_primary"
+			/>
+			<field
+				name="color_secondary"
+				type="color"
+				size="8"
+				label="Secondary color"
+				extension="com_signalzen"
+				view="color_secondary"
+			/>
+			<field
+				name="color_footer"
+				type="color"
+				size="8"
+				label="Footer color"
+				extension="com_signalzen"
+				view="color_footer"
+			/>
+			<field
+				name="color_error"
+				type="color"
+				size="8"
+				label="Error color"
+				extension="com_signalzen"
+				view="color_error"
+			/>
+			<field
+				name="color_popup"
+				type="color"
+				size="8"
+				label="Popup color"
+				extension="com_signalzen"
+				view="color_popup"
+			/>
+			<field
+				name="color_popupClose"
+				type="color"
+				size="8"
+				label="Popup close color"
+				extension="com_signalzen"
+				view="color_popupClose"
+			/>
+			<field
+				name="color_popupCloseSymbol"
+				type="color"
+				size="8"
+				label="Popup close symbol color"
+				extension="com_signalzen"
+				view="color_popupCloseSymbol"
+			/>
+			<field
+				name="color_popupFormInputBorder"
+				type="color"
+				size="8"
+				label="Popup form input color"
+				extension="com_signalzen"
+				view="color_popupFormInputBorder"
+			/>
+			<field
+				name="color_badge"
+				type="color"
+				size="8"
+				label="Badge color"
+				extension="com_signalzen"
+				view="color_badge"
+			/>
+			<field
+				name="color_footerEmojisPopup"
+				type="color"
+				size="8"
+				label="Footer emojis background color"
+				extension="com_signalzen"
+				view="color_footerEmojisPopup"
+			/>
+			<field
+				name="color_footerOptions"
+				type="color"
+				size="8"
+				label="Footer options color"
+				extension="com_signalzen"
+				view="color_footerOptions"
+			/>
+			<field
+				name="color_operatorMessages"
+				type="color"
+				size="8"
+				label="Operator messages background color"
+				extension="com_signalzen"
+				view="color_operatorMessages"
+			/>
+			<field
+				name="color_formInput"
+				type="color"
+				size="8"
+				label="Form input color"
+				extension="com_signalzen"
+				view="color_formInput"
+			/>
+			<field
+				name="color_formInputBorder"
+				type="color"
+				size="8"
+				label="Form input border color"
+				extension="com_signalzen"
+				view="color_formInputBorder"
+			/>
+			<field
+				name="color_formButton"
+				type="color"
+				size="8"
+				label="Form button background color"
+				extension="com_signalzen"
+				view="color_formButton"
+			/>
+			<field
+				name="color_formPlaceholder"
+				type="color"
+				size="8"
+				label="Form input placeholder color"
+				extension="com_signalzen"
+				view="color_formPlaceholder"
+			/>
+			<field
+				name="color_textPrimary"
+				type="color"
+				size="8"
+				label="Text primary color"
+				extension="com_signalzen"
+				view="color_textPrimary"
+			/>
+			<field
+				name="color_textError"
+				type="color"
+				size="8"
+				label="Error text color"
+				extension="com_signalzen"
+				view="color_textError"
+			/>
+			<field
+				name="color_textTime"
+				type="color"
+				size="8"
+				label="Time text color"
+				extension="com_signalzen"
+				view="color_textTime"
+			/>
+			<field
+				name="color_textTimeSeparator"
+				type="color"
+				size="8"
+				label="Time separator text color"
+				extension="com_signalzen"
+				view="color_textTimeSeparator"
+			/>
+			<field
+				name="color_textUserMessage"
+				type="color"
+				size="8"
+				label="User message text color"
+				extension="com_signalzen"
+				view="color_textUserMessage"
+			/>
+			<field
+				name="color_textFormInput"
+				type="color"
+				size="8"
+				label="Form text input color"
+				extension="com_signalzen"
+				view="color_textFormInput"
+			/>
+			<field
+				name="color_textFormTitle"
+				type="color"
+				size="8"
+				label="Form text title color"
+				extension="com_signalzen"
+				view="color_textFormTitle"
+			/>
+			<field
+				name="color_textFormButton"
+				type="color"
+				size="8"
+				label="Form button text color"
+				extension="com_signalzen"
+				view="color_textFormButton"
+			/>
+		</fieldset>
+		<fieldset
+			name="Custom Widget Icon"
+			label="Custom Widget Icon"
+			description="Custom Icon of the Live Chat widget configuration"
+			>
+			<field
+				name="chat_icon_enabled"
+				type="checkbox"
+				label="Custom Chat icon enabled"
+				extension="com_signalzen"
+				view="chat_icon_enabled"
+			/>
+			<field
+				name="chat_icon_closed"
+				type="media"
+				label="Chat Icon image (when chat is closed)"
+				extension="com_signalzen"
+				view="chat_icon_closed"
+				accept="image/*"
+			/>
+			<field
+				name="chat_icon_open"
+				type="media"
+				label="Chat Icon image (when chat is open)"
+				extension="com_signalzen"
+				view="chat_icon_open"
+				accept="image/*"
+			/>
+			<field
+				name="chat_icon_loading"
+				type="media"
+				label="Chat Icon image (when chat is loading)"
+				extension="com_signalzen"
+				view="chat_icon_loading"
+				accept="image/*"
+			/>
+			<field
+				name="chat_icon_width"
+				type="number"
+				size="8"
+				label="Chat icon width (px)"
+				extension="com_signalzen"
+				view="chat_icon_width"
+			/>
+			<field
+				name="chat_icon_height"
+				type="number"
+				size="8"
+				label="Chat icon height (px)"
+				extension="com_signalzen"
+				view="chat_icon_height"
+			/>
+		</fieldset>
+	</form>
 </config>

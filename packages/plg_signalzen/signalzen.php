@@ -120,14 +120,27 @@ class plgSystemSignalzen extends JPlugin
       $layout .= '},';
     }
 
+    $chat_icon = '';
+    if ($params->get( 'chat_icon_enabled' ) == '1') {
+      $chat_icon = 'chatIcon: {
+        width: '.$params->get( 'chat_icon_width' ).',
+        height: '.$params->get( 'chat_icon_height' ).',
+        open: "/'.$params->get( 'chat_icon_open' ).'",
+        closed: "/'.$params->get( 'chat_icon_closed' ).'",
+        loading: "/'.$params->get( 'chat_icon_loading' ).'",
+      },';
+    }
+
     $script = 'window.paceOptions = {
     ajax: {
       trackWebSockets: false,
       ignoreURLs: [/signalzen/]
     }
   };
+
   var _sz = {
     '. $layout. '
+    '. $chat_icon .'
     colors: {
       primary: "'. $this->colorValue('primary') .'",
       secondary: "'. $this->colorValue('secondary') .'",
